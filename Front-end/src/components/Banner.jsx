@@ -4,7 +4,7 @@ import banner from "../../public/banner.jpg";
 const Banner = () => {
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10">   
+      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10">
         <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-32">
           <div className="space-y-12">
             <h1 className="text-4xl font-bold">
@@ -30,10 +30,10 @@ const Banner = () => {
               <input type="text" className="grow" placeholder="Email" />
             </label>
           </div>
-          <button className="btn mt-6 btn-secondary ">Secondary</button>
+          <button className="btn mt-6 btn-secondary ">Get Started</button>
         </div>
-        <div className= "order-1 w-full md:w-1/2">
-          <img src={banner}  className= " px-2 w-92 h-92"   alt="Loading..." />
+        <div className="order-1 w-full md:w-1/2">
+          <img src={banner} className=" px-2 w-92 h-92" alt="Loading..." />
         </div>
       </div>
     </>
