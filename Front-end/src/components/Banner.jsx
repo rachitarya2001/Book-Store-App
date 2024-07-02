@@ -12,7 +12,7 @@ const Banner = () => {
               <span className="text-pink-500">something new everyday</span>
             </h1>
             <p className="text-xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+              Lorem insum dolor sit amet consectetur adipisicing elit. Sapiente
               culpa non perferendis rem est atque, quisquam accusamus officiis
               voluptates fuga. Pariatur incidunt eum illo quod sapiente non
               corrupti voluptate libero?
